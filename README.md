@@ -30,6 +30,8 @@ The third example shows a simple way of writing an extended unit test for the [a
 
 ### Installing the prereqs needed for the code examples
 
+Either do `pip install -r requirements.txt` or do `pip install pytest hypothesis autograd sklearn`.
+
 ## Resources
 
 While researching Hypothesis and Property-based testing I benefitted greatly
