@@ -24,7 +24,7 @@ The talk revolved around a few code examples where I showcased different aspects
 
 The first example discussed an example borrowed from Hillel Wayne's [excellent talk](https://hillelwayne.com/talks/beyond-unit-tests/): A function that finds the maximal product of two elements from a list of integers. I show how quickly Hypothesis can find an example that breaks a "clever" implementation.
 
-The second example discusses the challenge of checking whether [CountVectorizer from scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) behaves as expected when tokenizing on chars. In `test_encoder.py` I check whether CountVectorizer can handly any unicode input. In `test_restricted`, I check whether CountVectorizer can cope when explicitly asked not to lowercase its inputs and receiving a much more restricted set of unicode letters.
+The second example discusses the challenge of checking whether [CountVectorizer from scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) behaves as expected when tokenizing on chars. In `test_encoder.py` I check whether CountVectorizer can handle any unicode input. In `test_restricted`, I check whether CountVectorizer can cope when explicitly asked not to lowercase its inputs and receiving a much more restricted set of unicode letters.
 
 The third example shows a simple way of writing an extended unit test for the [autograd](https://github.com/HIPS/autograd) differentiation library: We use autograd to find the derivative of `np.sin`, and then check whether it behaves like `np.sin` for a bunch of input arrays.
 
