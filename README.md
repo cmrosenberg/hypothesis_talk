@@ -24,7 +24,7 @@ The talk revolved around a few code examples where I showcased different aspects
 
 The first example discussed an example borrowed from Hillel Wayne's [excellent talk](https://hillelwayne.com/talks/beyond-unit-tests/): A function that finds the maximal product of two elements from a list of integers. I show how quickly Hypothesis can find an example that breaks a "clever" implementation. 
 
-## Key hypothesis concepts: Strategies
+In the second example, I discuss a problem I ran into in my research, where I found a bug in an encoding scheme I devised.
 
 ## Installing the prereqs needed for the code examples
 
